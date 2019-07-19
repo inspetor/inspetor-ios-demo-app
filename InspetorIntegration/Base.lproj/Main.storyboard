@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,13 +13,54 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="InspetorIntegration" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" largeTitles="YES" translatesAutoresizingMaskIntoConstraints="NO" id="azy-Oo-yDf">
+                                <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                                <items>
+                                    <navigationItem title="Integration Test" id="a7t-cW-iCd"/>
+                                </items>
+                            </navigationBar>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I2X-Y8-Ier">
+                                <rect key="frame" x="0.0" y="140" width="414" height="216"/>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YTv-cn-eIT">
+                                <rect key="frame" x="174.5" y="436" width="65" height="46"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Track"/>
+                                <connections>
+                                    <action selector="trackAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QjZ-Ve-mOp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FpO-ja-D6G">
+                                <rect key="frame" x="177.5" y="500" width="59" height="30"/>
+                                <state key="normal" title="Track All"/>
+                                <connections>
+                                    <action selector="trackAllActions:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zNf-Ku-Fiy"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="YTv-cn-eIT" firstAttribute="top" secondItem="I2X-Y8-Ier" secondAttribute="bottom" constant="80" id="0Uo-zq-pYF"/>
+                            <constraint firstItem="FpO-ja-D6G" firstAttribute="top" secondItem="YTv-cn-eIT" secondAttribute="bottom" constant="18" id="1H4-gN-ME6"/>
+                            <constraint firstItem="FpO-ja-D6G" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CO3-py-Wba"/>
+                            <constraint firstItem="azy-Oo-yDf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="OJS-S4-7co"/>
+                            <constraint firstItem="I2X-Y8-Ier" firstAttribute="top" secondItem="azy-Oo-yDf" secondAttribute="bottom" id="Yi7-Ds-SAz"/>
+                            <constraint firstItem="azy-Oo-yDf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="cXQ-I3-oXM"/>
+                            <constraint firstItem="I2X-Y8-Ier" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="cvn-z1-tYc"/>
+                            <constraint firstItem="YTv-cn-eIT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dJj-h0-oKP"/>
+                            <constraint firstItem="I2X-Y8-Ier" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="i09-xr-jpb"/>
+                            <constraint firstItem="azy-Oo-yDf" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="j2F-qY-z5A"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="pickerView" destination="I2X-Y8-Ier" id="xbW-8c-uyZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

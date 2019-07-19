@@ -1,0 +1,6 @@
+framework module Pods_InspetorIntegration {
+  umbrella header "Pods-InspetorIntegration-umbrella.h"
+
+  export *
+  module * { export * }
+}

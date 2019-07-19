@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-InspetorIntegration/Pods-InspetorIntegration-frameworks.sh
+${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework
+${BUILT_PRODUCTS_DIR}/INTULocationManager/INTULocationManager.framework
+${PODS_ROOT}/Inspetor/Inspetor.framework
+${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework
+${BUILT_PRODUCTS_DIR}/SnowplowTracker/SnowplowTracker.framework

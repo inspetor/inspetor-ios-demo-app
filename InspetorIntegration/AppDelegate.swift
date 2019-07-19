@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Inspetor
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        Inspetor.sharedInstance.inspetorConfig = InspetorConfig(appId: "123", trackerName: "inspetor.ios.integration-app", devEnv: true)
         return true
     }
 
