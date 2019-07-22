@@ -39,6 +39,11 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         self.pickerView.delegate = self
         self.pickerView.dataSource = self
         print(self.trackingActions.count)
+        if CLLocationManager.locationServicesEnabled() {
+            if (CLLocationManager.authorizationStatus() != .authorizedAlways || CLLocationManager.authorizationStatus() != .authorizedWhenInUse) {
+                manager.requestWhenInUseAuthorization()
+            }
+        }
     }
     
     //MARK: Helper Functions

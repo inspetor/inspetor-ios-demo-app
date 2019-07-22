@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0B7A00F222DE585700AE8350 /* InspetorIntegration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InspetorIntegration.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B7A00F222DE585700AE8350 /* InspetorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InspetorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B7A00F522DE585700AE8350 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B7A00F722DE585700AE8350 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0B7A00FA22DE585700AE8350 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		0B7A00E922DE585700AE8350 = {
 			isa = PBXGroup;
 			children = (
-				0B7A00F422DE585700AE8350 /* InspetorIntegration */,
+				0B7A00F422DE585700AE8350 /* InspetorDemo */,
 				0B7A00F322DE585700AE8350 /* Products */,
 				17A1BB3D9175E13063BB5661 /* Pods */,
 				E4AF667A7914157B02DC9839 /* Frameworks */,
@@ -53,12 +53,12 @@
 		0B7A00F322DE585700AE8350 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0B7A00F222DE585700AE8350 /* InspetorIntegration.app */,
+				0B7A00F222DE585700AE8350 /* InspetorDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0B7A00F422DE585700AE8350 /* InspetorIntegration */ = {
+		0B7A00F422DE585700AE8350 /* InspetorDemo */ = {
 			isa = PBXGroup;
 			children = (
 				0B7A00F522DE585700AE8350 /* AppDelegate.swift */,
@@ -68,7 +68,7 @@
 				0B7A00FE22DE585900AE8350 /* LaunchScreen.storyboard */,
 				0B7A010122DE585900AE8350 /* Info.plist */,
 			);
-			path = InspetorIntegration;
+			path = InspetorDemo;
 			sourceTree = "<group>";
 		};
 		17A1BB3D9175E13063BB5661 /* Pods */ = {
@@ -91,9 +91,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0B7A00F122DE585700AE8350 /* InspetorIntegration */ = {
+		0B7A00F122DE585700AE8350 /* InspetorDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B7A010422DE585900AE8350 /* Build configuration list for PBXNativeTarget "InspetorIntegration" */;
+			buildConfigurationList = 0B7A010422DE585900AE8350 /* Build configuration list for PBXNativeTarget "InspetorDemo" */;
 			buildPhases = (
 				6ED223158DA0B34025DD1F52 /* [CP] Check Pods Manifest.lock */,
 				0B7A00EE22DE585700AE8350 /* Sources */,
@@ -105,9 +105,9 @@
 			);
 			dependencies = (
 			);
-			name = InspetorIntegration;
+			name = InspetorDemo;
 			productName = InspetorIntegration;
-			productReference = 0B7A00F222DE585700AE8350 /* InspetorIntegration.app */;
+			productReference = 0B7A00F222DE585700AE8350 /* InspetorDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,7 +125,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0B7A00ED22DE585700AE8350 /* Build configuration list for PBXProject "InspetorIntegration" */;
+			buildConfigurationList = 0B7A00ED22DE585700AE8350 /* Build configuration list for PBXProject "InspetorDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -138,7 +138,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0B7A00F122DE585700AE8350 /* InspetorIntegration */,
+				0B7A00F122DE585700AE8350 /* InspetorDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -352,12 +352,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = InspetorIntegration/Info.plist;
+				DEVELOPMENT_TEAM = L6Z5L6M4WL;
+				INFOPLIST_FILE = InspetorDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.useinspetor.InspetorIntegration;
+				PRODUCT_BUNDLE_IDENTIFIER = com.useinspetor.InspetorDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -370,12 +371,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = InspetorIntegration/Info.plist;
+				DEVELOPMENT_TEAM = L6Z5L6M4WL;
+				INFOPLIST_FILE = InspetorDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.useinspetor.InspetorIntegration;
+				PRODUCT_BUNDLE_IDENTIFIER = com.useinspetor.InspetorDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -385,7 +387,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0B7A00ED22DE585700AE8350 /* Build configuration list for PBXProject "InspetorIntegration" */ = {
+		0B7A00ED22DE585700AE8350 /* Build configuration list for PBXProject "InspetorDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0B7A010222DE585900AE8350 /* Debug */,
@@ -394,7 +396,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0B7A010422DE585900AE8350 /* Build configuration list for PBXNativeTarget "InspetorIntegration" */ = {
+		0B7A010422DE585900AE8350 /* Build configuration list for PBXNativeTarget "InspetorDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0B7A010522DE585900AE8350 /* Debug */,
