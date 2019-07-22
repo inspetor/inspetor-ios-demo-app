@@ -12,7 +12,7 @@
 		0B7A00FB22DE585700AE8350 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B7A00F922DE585700AE8350 /* Main.storyboard */; };
 		0B7A00FD22DE585900AE8350 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B7A00FC22DE585900AE8350 /* Assets.xcassets */; };
 		0B7A010022DE585900AE8350 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B7A00FE22DE585900AE8350 /* LaunchScreen.storyboard */; };
-		4259E2ACE39C22B44E2EEE5F /* Pods_InspetorIntegration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED697CE70A7651D98CE4E566 /* Pods_InspetorIntegration.framework */; };
+		B45DAEE793B49432620A7195 /* Pods_InspetorDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD39915AA6A4D2C299B94C90 /* Pods_InspetorDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,9 +23,9 @@
 		0B7A00FC22DE585900AE8350 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B7A00FF22DE585900AE8350 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B7A010122DE585900AE8350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		497B507616E199D20B43B806 /* Pods-InspetorIntegration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InspetorIntegration.debug.xcconfig"; path = "Target Support Files/Pods-InspetorIntegration/Pods-InspetorIntegration.debug.xcconfig"; sourceTree = "<group>"; };
-		77D7ACB2A640B7E90860B298 /* Pods-InspetorIntegration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InspetorIntegration.release.xcconfig"; path = "Target Support Files/Pods-InspetorIntegration/Pods-InspetorIntegration.release.xcconfig"; sourceTree = "<group>"; };
-		ED697CE70A7651D98CE4E566 /* Pods_InspetorIntegration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InspetorIntegration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0C553C7BA848BC3F14612E /* Pods-InspetorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InspetorDemo.debug.xcconfig"; path = "Target Support Files/Pods-InspetorDemo/Pods-InspetorDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D7E1BF6467F94833DEB180CB /* Pods-InspetorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InspetorDemo.release.xcconfig"; path = "Target Support Files/Pods-InspetorDemo/Pods-InspetorDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DD39915AA6A4D2C299B94C90 /* Pods_InspetorDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InspetorDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4259E2ACE39C22B44E2EEE5F /* Pods_InspetorIntegration.framework in Frameworks */,
+				B45DAEE793B49432620A7195 /* Pods_InspetorDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,7 +46,7 @@
 				0B7A00F422DE585700AE8350 /* InspetorDemo */,
 				0B7A00F322DE585700AE8350 /* Products */,
 				17A1BB3D9175E13063BB5661 /* Pods */,
-				E4AF667A7914157B02DC9839 /* Frameworks */,
+				69671DBCBED2843341DF508F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,16 +74,16 @@
 		17A1BB3D9175E13063BB5661 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				497B507616E199D20B43B806 /* Pods-InspetorIntegration.debug.xcconfig */,
-				77D7ACB2A640B7E90860B298 /* Pods-InspetorIntegration.release.xcconfig */,
+				3F0C553C7BA848BC3F14612E /* Pods-InspetorDemo.debug.xcconfig */,
+				D7E1BF6467F94833DEB180CB /* Pods-InspetorDemo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		E4AF667A7914157B02DC9839 /* Frameworks */ = {
+		69671DBCBED2843341DF508F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				ED697CE70A7651D98CE4E566 /* Pods_InspetorIntegration.framework */,
+				DD39915AA6A4D2C299B94C90 /* Pods_InspetorDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -95,11 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B7A010422DE585900AE8350 /* Build configuration list for PBXNativeTarget "InspetorDemo" */;
 			buildPhases = (
-				6ED223158DA0B34025DD1F52 /* [CP] Check Pods Manifest.lock */,
+				F4FC8C264C34C3AEE66A8D65 /* [CP] Check Pods Manifest.lock */,
 				0B7A00EE22DE585700AE8350 /* Sources */,
 				0B7A00EF22DE585700AE8350 /* Frameworks */,
 				0B7A00F022DE585700AE8350 /* Resources */,
-				E0595A9B6A010A5744D6BFD4 /* [CP] Embed Pods Frameworks */,
+				6D5DFB2821CCA181810EFC10 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,7 +157,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6ED223158DA0B34025DD1F52 /* [CP] Check Pods Manifest.lock */ = {
+		6D5DFB2821CCA181810EFC10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InspetorDemo/Pods-InspetorDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InspetorDemo/Pods-InspetorDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InspetorDemo/Pods-InspetorDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4FC8C264C34C3AEE66A8D65 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -172,28 +189,11 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-InspetorIntegration-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-InspetorDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E0595A9B6A010A5744D6BFD4 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-InspetorIntegration/Pods-InspetorIntegration-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-InspetorIntegration/Pods-InspetorIntegration-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InspetorIntegration/Pods-InspetorIntegration-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -348,7 +348,7 @@
 		};
 		0B7A010522DE585900AE8350 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 497B507616E199D20B43B806 /* Pods-InspetorIntegration.debug.xcconfig */;
+			baseConfigurationReference = 3F0C553C7BA848BC3F14612E /* Pods-InspetorDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -367,7 +367,7 @@
 		};
 		0B7A010622DE585900AE8350 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77D7ACB2A640B7E90860B298 /* Pods-InspetorIntegration.release.xcconfig */;
+			baseConfigurationReference = D7E1BF6467F94833DEB180CB /* Pods-InspetorDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

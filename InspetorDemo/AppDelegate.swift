@@ -17,7 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        Inspetor.sharedInstance.inspetorConfig = InspetorConfig(appId: "123", trackerName: "inspetor.ios.demo-app", devEnv: true)
+        //Using the inspetorEnv only for testing so no data is send to Inspetor
+        Inspetor.sharedInstance.inspetorConfig = InspetorConfig(appId: "123", trackerName: "inspetor.ios.demo-app", devEnv: true, inspetorEnv: true)
         return true
     }
 

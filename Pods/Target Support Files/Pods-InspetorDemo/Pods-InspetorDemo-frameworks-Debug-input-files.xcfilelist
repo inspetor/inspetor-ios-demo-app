@@ -1,4 +1,4 @@
-${PODS_ROOT}/Target Support Files/Pods-InspetorIntegration/Pods-InspetorIntegration-frameworks.sh
+${PODS_ROOT}/Target Support Files/Pods-InspetorDemo/Pods-InspetorDemo-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework
 ${BUILT_PRODUCTS_DIR}/INTULocationManager/INTULocationManager.framework
 ${PODS_ROOT}/Inspetor/Inspetor.framework

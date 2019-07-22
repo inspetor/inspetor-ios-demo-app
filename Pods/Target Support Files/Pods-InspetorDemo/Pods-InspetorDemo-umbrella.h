@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_InspetorIntegrationVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_InspetorIntegrationVersionString[];
+FOUNDATION_EXPORT double Pods_InspetorDemoVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_InspetorDemoVersionString[];
 

@@ -4,7 +4,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 # platform :ios, '9.0'
 use_frameworks!
 
-target 'InspetorIntegration' do
+target 'InspetorDemo' do
   # Comment the next line if you don't want to use dynamic frameworks
   pod 'Inspetor'
   # Pods for InspetorIntegration
