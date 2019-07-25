@@ -14,7 +14,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     
     //MARK: Properties
     @IBOutlet weak var pickerView: UIPickerView!
-    let inspetor = Inspetor.sharedInstance
+    let inspetor = Inspetor.sharedInstance()
     let manager = CLLocationManager()
     let trackingActions = [
         "TrackLogin",
@@ -50,59 +50,59 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     private func runTrackingFunction(action: String) {
         switch action {
         case "TrackLogin":
-            if (Inspetor.isConfigured()) {
+            if (Inspetor.sharedInstance().isConfigured()) {
                 try! self.inspetor.trackLogin(accountId: "123")
             }
         case "TrackLogout":
-            if (Inspetor.isConfigured()) {
+            if (Inspetor.sharedInstance().isConfigured()) {
                 try! self.inspetor.trackLogout(accountId: "123")
             }
         case "TrackAccountCreation":
-            if (Inspetor.isConfigured()) {
+            if (Inspetor.sharedInstance().isConfigured()) {
                 try! self.inspetor.trackAccountCreation(accountId: "123")
             }
         case "TrackAccountUpdate":
-            if (Inspetor.isConfigured()) {
+            if (Inspetor.sharedInstance().isConfigured()) {
                 try! self.inspetor.trackAccountUpdate(accountId: "123")
             }
         case "TrackAccountDeletion":
-            if (Inspetor.isConfigured()) {
+            if (Inspetor.sharedInstance().isConfigured()) {
                 try! self.inspetor.trackAccountDeletion(accountId: "123")
             }
         case "TrackPassRecovery":
-            if (Inspetor.isConfigured()) {
+            if (Inspetor.sharedInstance().isConfigured()) {
                 try! self.inspetor.trackPasswordRecovery(accountEmail: "pass_recovery@email.com")
             }
         case "TrackPassReset":
-            if (Inspetor.isConfigured()) {
+            if (Inspetor.sharedInstance().isConfigured()) {
                 try! self.inspetor.trackPasswordReset(accountEmail: "pass_recovery@email.com")
             }
         case "TrackEventCreation":
-            if (Inspetor.isConfigured()) {
+            if (Inspetor.sharedInstance().isConfigured()) {
                 try! self.inspetor.trackEventCreation(eventId: "123")
             }
         case "TrackEventUpdate":
-            if (Inspetor.isConfigured()) {
+            if (Inspetor.sharedInstance().isConfigured()) {
                 try! self.inspetor.trackEventUpdate(eventId: "123")
             }
         case "TrackEventDeletion":
-            if (Inspetor.isConfigured()) {
+            if (Inspetor.sharedInstance().isConfigured()) {
                 try! self.inspetor.trackEventDeletion(eventId: "123")
             }
         case "TrackTransferCreation":
-            if (Inspetor.isConfigured()) {
+            if (Inspetor.sharedInstance().isConfigured()) {
                 try! self.inspetor.trackItemTransferCreation(transferId: "123")
             }
         case "TrackTransferUpdate":
-            if (Inspetor.isConfigured()) {
+            if (Inspetor.sharedInstance().isConfigured()) {
                 try! self.inspetor.trackItemTransferUpdate(transferId: "123")
             }
         case "TrackSaleCreation":
-            if (Inspetor.isConfigured()) {
+            if (Inspetor.sharedInstance().isConfigured()) {
                 try! self.inspetor.trackSaleCreation(saleId: "123")
             }
         case "TrackSaleUpdate":
-            if (Inspetor.isConfigured()) {
+            if (Inspetor.sharedInstance().isConfigured()) {
                 try! self.inspetor.trackSaleUpdate(saleId: "123")
             }
         default:
