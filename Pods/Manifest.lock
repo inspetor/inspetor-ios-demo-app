@@ -2,7 +2,7 @@ PODS:
   - FMDB (2.6.2):
     - FMDB/standard (= 2.6.2)
   - FMDB/standard (2.6.2)
-  - Inspetor (1.0.2):
+  - Inspetor (1.0.4):
     - INTULocationManager
     - SnowplowTracker (~> 1.1.2)
   - INTULocationManager (4.3.2)
@@ -24,7 +24,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
-  Inspetor: c954f55944e9e27397716f11909ef6e3f366d5fe
+  Inspetor: e94f6b9150309b6b1bdd357b3ffd64124438afa3
   INTULocationManager: e5dc524611b0cd582f473bc56cc8c389adb2f338
   ReachabilitySwift: 4032e2f59586e11e3b0ebe15b167abdd587a388b
   SnowplowTracker: a311c5506abf6aef25417bfbb6b8612293438a2c
