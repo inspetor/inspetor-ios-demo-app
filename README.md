@@ -3,4 +3,4 @@
 </p>
 
 # Inspetor Antifraud iOS Demo
-Antrifraud Inspetor demo app with Inspetor iOS trackers. 
+Antrifraud Inspetor demo app with Inspetor iOS library implemented. 
